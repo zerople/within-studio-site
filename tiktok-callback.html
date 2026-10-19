@@ -1,0 +1,4 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Within Studio · authorization complete</title>
+<style>body{font-family:system-ui,sans-serif;max-width:640px;margin:60px auto;padding:0 20px;line-height:1.5}code{display:block;background:#f3f3f3;padding:12px;border-radius:8px;word-break:break-all;margin:12px 0}</style></head>
+<body><h1>Authorization complete</h1><p>Return to the terminal and paste this code (or the full URL) into the connect tool.</p><code id="c">…</code><p id="e"></p>
+<script>const q=new URLSearchParams(location.search);document.getElementById('c').textContent=q.get('code')||location.href;if(q.get('error'))document.getElementById('e').textContent='Error: '+q.get('error')+' '+(q.get('error_description')||'');</script></body></html>
